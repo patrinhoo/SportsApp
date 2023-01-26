@@ -31,17 +31,17 @@ Password: sportsmanpw
 ```
 
 ## Short Demonstration 
-As a Coach:
+* As a Coach:
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81069467/214874366-ecc1411f-bc6f-4eb4-998f-5e5ac57c3de6.gif)
   
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/81069467/214875001-5a342a50-f893-4b88-b37f-7053ef9323a1.gif)
   
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/81069467/214875534-5387d432-3f0e-4757-97bc-0c4d695cd49c.gif)
   
-![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/81069467/214875580-34e9425b-8545-4d83-b05f-6f13271ebf78.gif)
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/81069467/214875901-9091314a-1126-4af3-a930-5d8552d551ed.gif)
   
   
-As a Sportsman:
+* As a Sportsman:
 
 
 ## Technologies
