@@ -31,7 +31,7 @@ Password: sportsmanpw
 ```
 
 ## Short Demonstration 
-* As a Coach:
+* As a Coach:\
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81069467/214874366-ecc1411f-bc6f-4eb4-998f-5e5ac57c3de6.gif)
   
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/81069467/214875001-5a342a50-f893-4b88-b37f-7053ef9323a1.gif)
