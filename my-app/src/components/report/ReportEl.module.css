@@ -1,0 +1,59 @@
+.report--el--wrapper {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border: 2px solid #bbb;
+  border-radius: 15px;
+  background-color: rgb(204, 204, 204, 0.3);
+}
+
+.report--el--title {
+  text-align: center;
+  height: 40px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.report--data--wrapper {
+  display: flex;
+}
+
+.workouts--nr {
+  flex: 1;
+  margin-right: 0.5rem;
+  padding: 1.5rem;
+  border: 2px solid #999;
+  border-radius: 15px;
+  background-color: white;
+  padding-top: 3rem;
+}
+
+.workouts--duration {
+  flex: 1;
+  margin-right: 0.5rem;
+  padding: 1.5rem;
+  border: 2px solid #999;
+  border-radius: 15px;
+  background-color: rgb(128, 0, 128, 0.7);
+}
+
+.workouts--mark {
+  flex: 1;
+  padding: 1.5rem;
+  border: 2px solid #999;
+  border-radius: 15px;
+  background-color: rgba(255, 69, 0, 0.8);
+}
+
+.report--data--header {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.report--data--value {
+  margin-top: 0.2rem;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-style: oblique;
+}

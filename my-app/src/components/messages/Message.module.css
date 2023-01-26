@@ -1,0 +1,18 @@
+.my--msg {
+  background: rgba(0, 255, 68, 0.4);
+  border-radius: 10px;
+  max-width: 75%;
+  width: fit-content;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.friend--msg {
+  background: rgba(220, 220, 220, 0.6);
+  border-radius: 10px;
+  max-width: 75%;
+  width: fit-content;
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: auto;
+}

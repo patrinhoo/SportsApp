@@ -1,0 +1,141 @@
+.register--wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+
+  background-image: radial-gradient(
+      circle at center center,
+      rgba(217, 217, 217, 0.05) 0%,
+      rgba(217, 217, 217, 0.05) 15%,
+      rgba(197, 197, 197, 0.05) 15%,
+      rgba(197, 197, 197, 0.05) 34%,
+      rgba(178, 178, 178, 0.05) 34%,
+      rgba(178, 178, 178, 0.05) 51%,
+      rgba(237, 237, 237, 0.05) 51%,
+      rgba(237, 237, 237, 0.05) 75%,
+      rgba(138, 138, 138, 0.05) 75%,
+      rgba(138, 138, 138, 0.05) 89%,
+      rgba(158, 158, 158, 0.05) 89%,
+      rgba(158, 158, 158, 0.05) 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgb(255, 255, 255) 0%,
+      rgb(255, 255, 255) 6%,
+      rgb(255, 255, 255) 6%,
+      rgb(255, 255, 255) 12%,
+      rgb(255, 255, 255) 12%,
+      rgb(255, 255, 255) 31%,
+      rgb(255, 255, 255) 31%,
+      rgb(255, 255, 255) 92%,
+      rgb(255, 255, 255) 92%,
+      rgb(255, 255, 255) 97%,
+      rgb(255, 255, 255) 97%,
+      rgb(255, 255, 255) 100%
+    );
+  background-size: 42px 42px;
+}
+
+.register--header {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+
+.register--email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 300px;
+  padding: 0px 15px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: medium;
+  color: black;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.register--pw {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 300px;
+  padding: 0px 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: medium;
+  color: black;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.register--name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 200px;
+  padding: 0px 15px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: medium;
+  color: black;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.register--label {
+  display: block;
+  text-align: center;
+  font-size: small;
+}
+
+.register--select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 200px;
+  padding: 0px 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: medium;
+  color: black;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.register--btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  height: 40px;
+  width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.register--btn:hover {
+  background-color: rgb(0, 0, 220);
+  border: 1px solid #666;
+}

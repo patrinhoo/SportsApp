@@ -1,0 +1,231 @@
+.workout--el--wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #fafafa;
+}
+
+.workout--title--wrapper {
+  margin-top: 1rem;
+  background-color: rgba(90, 0, 150, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--title--header {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.workout--title {
+  margin-top: 1rem;
+  font-size: large;
+  text-align: center;
+  font-style: oblique;
+}
+
+.workout--time--wrapper {
+  margin-top: 1rem;
+  background-color: rgba(255, 180, 0, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--time--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--time {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: oblique;
+}
+
+.workout--date--wrapper {
+  margin-top: 1rem;
+  background-color: rgba(220, 0, 0, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--date--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--date {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: oblique;
+}
+
+.workout--mark--wrapper {
+  margin-top: 1rem;
+  background-color: rgba(90, 0, 150, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--mark--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--mark {
+  border: 2px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.workout--result {
+  border: 2px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 15px;
+  margin-left: 1rem;
+  margin-right: 0.25rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.workout--comment--wrapper {
+  margin-top: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-image: radial-gradient(
+      circle at center center,
+      rgba(217, 217, 217, 0.05) 0%,
+      rgba(217, 217, 217, 0.05) 15%,
+      rgba(197, 197, 197, 0.05) 15%,
+      rgba(197, 197, 197, 0.05) 34%,
+      rgba(178, 178, 178, 0.05) 34%,
+      rgba(178, 178, 178, 0.05) 51%,
+      rgba(237, 237, 237, 0.05) 51%,
+      rgba(237, 237, 237, 0.05) 75%,
+      rgba(138, 138, 138, 0.05) 75%,
+      rgba(138, 138, 138, 0.05) 89%,
+      rgba(158, 158, 158, 0.05) 89%,
+      rgba(158, 158, 158, 0.05) 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgb(255, 255, 255) 0%,
+      rgb(255, 255, 255) 6%,
+      rgb(255, 255, 255) 6%,
+      rgb(255, 255, 255) 12%,
+      rgb(255, 255, 255) 12%,
+      rgb(255, 255, 255) 31%,
+      rgb(255, 255, 255) 31%,
+      rgb(255, 255, 255) 92%,
+      rgb(255, 255, 255) 92%,
+      rgb(255, 255, 255) 97%,
+      rgb(255, 255, 255) 97%,
+      rgb(255, 255, 255) 100%
+    );
+  background-size: 42px 42px;
+}
+
+.workout--comment--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--comment--input {
+  display: block;
+  margin-top: 1rem;
+  font-style: oblique;
+  border-radius: 15px;
+  height: 5rem;
+  resize: none;
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+.workout--comment--input:focus {
+  outline: none !important;
+  border: 2px solid #999;
+  box-shadow: 0 0px 5px #555;
+}
+
+.workout--comment--btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 255, 0.8);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: fit-content;
+  border-radius: 15px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.workout--comment--btn:hover {
+  background-color: rgba(0, 0, 255, 0.85);
+  border: 1px solid #666;
+}
+
+.workout--mark--btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: fit-content;
+  border-radius: 15px;
+  border: 1px solid rgba(90, 0, 150, 0.5);
+  cursor: pointer;
+}
+
+.workout--mark--btn:hover {
+  background-color: rgba(0, 0, 255, 0.9);
+  border: 1px solid #333;
+}
+
+.workout--sportsman--wrapper {
+  background-color: rgba(180, 50, 0, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.profile--img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}

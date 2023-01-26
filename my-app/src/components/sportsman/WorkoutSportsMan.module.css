@@ -1,0 +1,136 @@
+.workout--el--wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #fafafa;
+}
+
+.workout--title--wrapper {
+  background-color: rgba(90, 0, 150, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--title--header {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.workout--title {
+  margin-top: 1rem;
+  font-size: large;
+  text-align: center;
+  font-style: oblique;
+}
+
+.workout--time--wrapper {
+  margin-top: 1rem;
+  background-color: rgba(255, 180, 0, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--time--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--time {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: oblique;
+}
+
+.workout--date--wrapper {
+  margin-top: 1rem;
+  background-color: rgba(220, 0, 0, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--date--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--date {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: oblique;
+}
+
+.workout--mark--wrapper {
+  margin-top: 1rem;
+  background-color: rgba(90, 0, 150, 0.5);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.workout--mark--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--mark {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: oblique;
+}
+
+.workout--comment--wrapper {
+  margin-top: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-image: radial-gradient(
+      circle at center center,
+      rgba(217, 217, 217, 0.05) 0%,
+      rgba(217, 217, 217, 0.05) 15%,
+      rgba(197, 197, 197, 0.05) 15%,
+      rgba(197, 197, 197, 0.05) 34%,
+      rgba(178, 178, 178, 0.05) 34%,
+      rgba(178, 178, 178, 0.05) 51%,
+      rgba(237, 237, 237, 0.05) 51%,
+      rgba(237, 237, 237, 0.05) 75%,
+      rgba(138, 138, 138, 0.05) 75%,
+      rgba(138, 138, 138, 0.05) 89%,
+      rgba(158, 158, 158, 0.05) 89%,
+      rgba(158, 158, 158, 0.05) 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgb(255, 255, 255) 0%,
+      rgb(255, 255, 255) 6%,
+      rgb(255, 255, 255) 6%,
+      rgb(255, 255, 255) 12%,
+      rgb(255, 255, 255) 12%,
+      rgb(255, 255, 255) 31%,
+      rgb(255, 255, 255) 31%,
+      rgb(255, 255, 255) 92%,
+      rgb(255, 255, 255) 92%,
+      rgb(255, 255, 255) 97%,
+      rgb(255, 255, 255) 97%,
+      rgb(255, 255, 255) 100%
+    );
+  background-size: 42px 42px;
+}
+
+.workout--comment--header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.workout--comment {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: oblique;
+}

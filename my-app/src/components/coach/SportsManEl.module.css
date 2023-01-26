@@ -1,0 +1,49 @@
+.sportsman--el--wrapper {
+  display: flex;
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: rgb(180, 50, 0, 0.5);
+  align-items: center;
+}
+
+.sportsman--avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  background-color: white;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.sportsman--name {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 40px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.sportsman--results--btn {
+  width: fit-content;
+  height: 40px;
+  padding: 5px 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sportsman--results--btn:hover {
+  border: 2px solid #aaa;
+  background-color: #ddd;
+}

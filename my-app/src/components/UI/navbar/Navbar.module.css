@@ -1,0 +1,99 @@
+.navbar {
+  display: flex;
+  height: 80px;
+  background-color: #555;
+  border-bottom: 3px solid #ccc;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px #ddd;
+}
+
+.action-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  height: 50px;
+  border-radius: 30px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #aaa;
+  border: 2px solid #999;
+}
+
+.results--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  height: 40px;
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+.results--btn:hover {
+  border: 2px solid white;
+  background-color: rgb(100, 0, 100);
+}
+
+.profile--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  height: 40px;
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+.profile--btn:hover {
+  border: 2px solid white;
+  background-color: rgb(220, 140, 0);
+}
+
+.logout--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  height: 40px;
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+.logout--btn:hover {
+  border: 2px solid white;
+  background-color: rgb(220, 0, 0);
+}

@@ -1,0 +1,43 @@
+.msg--form {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #bbb;
+  background-color: #eee;
+}
+
+.msg--send--btn {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.msg--send--btn:hover {
+  background-color: rgb(0, 0, 220);
+  border: 1px solid #666;
+}
+
+.msg--input {
+  height: 48px;
+  width: calc(100% - 180px);
+  padding: 0px 15px;
+  margin: 0;
+  font-size: large;
+  color: black;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+}
+
+.msg--input:hover {
+  border: 2px solid #999;
+  height: 46px;
+  width: calc(100% - 182px);
+}
