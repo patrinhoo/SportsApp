@@ -136,17 +136,6 @@ DATABASES = {
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'sportsapp_db',
-#         'USER': 'patrinho',
-#         'PASSWORD': 'Patryk1996.',
-#         'HOST': 'sportsapp-db.c4r58eqrkcz7.eu-central-1.rds.amazonaws.com',
-#         'PORT': '5432',
-#     }
-# }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
@@ -200,11 +189,6 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 # S3 BUCKETS CONFIG
-# AWS_ACCESS_KEY_ID = 'AKIAVX75GFSGFOUFQPHX'
-# AWS_SECRET_ACCESS_KEY = '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'
-# AWS_STORAGE_BUCKET_NAME = 'sportsapp-bucket'
-
-
 AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID', 'Optional default value')
 AWS_SECRET_ACCESS_KEY = os.getenv(
     'AWS_SECRET_ACCESS_KEY', 'Optional default value')
