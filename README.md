@@ -46,9 +46,15 @@ Password: sportsmanpw
   
   
   
-* As a Sportsman:
-
-
+* As a Sportsman:  
+  
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/81069467/215048240-ab362d7f-996d-415f-ac41-668fbfde3888.gif)
+  
+  
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/81069467/215048308-87e41a63-bc8a-46fc-97ed-df6ba55e3800.gif)
+  
+  
+  
 ## Technologies
 Project is created with:
 * Python
